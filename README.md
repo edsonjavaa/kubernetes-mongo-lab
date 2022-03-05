@@ -2,7 +2,7 @@
 
 A simple kubernetes lab for make possible the comunication between **MongoDB** and **Mongo-express**, where **mongodb** is in a "private" service and just the **mongo-express** is acessible externally.
 
-For that lap, I've used directly kubernetes components like **Pods**, **Deployments**, **Secret** and **ConfigMap**.
+For that lap, I've used directly kubernetes components like **Pods**, **Deployments**, **Secret** and **ConfigMap** and indirectly **ReplicaSets**
 
 #### How to run
 For execute this lab, it's necessary a **Kubernetes Cluster**. For run locally, we can to use the **Minikube**.
